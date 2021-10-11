@@ -1,10 +1,22 @@
 import './App.css';
+import { Jumbotron, Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <nav>
+        <Navbar color="light" light expand='md'>
           <ul>
             <li>
               <a href='home'>
@@ -17,15 +29,17 @@ function App() {
               </a>
             </li>
           </ul>
-        </nav>
-        <header background-image='../assets/img/swift1.jpg'>
-          <h2>
-            D'Andre Swift
-          </h2>
-          <p>
-            Running Back
-          </p>
-        </header>
+        </Navbar>
+        <div>
+          <Jumbotron background-image='../assets/img/swift1.jpg'>
+            <h1>
+              D'Andre Swift
+            </h1>
+            <hr className="my-2"/>
+            <p>Running Back</p>
+            <p>Georgia</p>
+          </Jumbotron>
+        </div>
       </div>
       <div>
 
