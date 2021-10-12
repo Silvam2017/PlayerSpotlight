@@ -1,42 +1,42 @@
 export const Stats = [
     {
-        name: 'player_game_count',
+        name: 'Games Played',
         value: 13
     },
     {
-        name: 'attempts',
+        name: 'Rushing Attempts',
         value: 114
     },
     {
-        name: 'avoided_tackles',
+        name: 'Tackles Avoided',
         value: 17
     },
     {
-        name: 'breakaway_attempts',
+        name: 'Breakaway Attempts',
         value: 6
     },
     {
-        name: 'breakaway_percent',
+        name: 'Breakaway Percent',
         value: 26.7
     },
     {
-        name: 'breakaway_yards',
+        name: 'Breakaway Yards',
         value: 139
     },
     {
-        name: 'drops',
+        name: 'Drops',
         value: 4
     },
     {
-        name: 'elusive_rating',
+        name: 'Elusive Ratings',
         value: 42.2
     },
     {
-        name: 'first_downs',
+        name: 'First Downs',
         value: 31
     },
     {
-        name: 'fumbles',
+        name: 'Fumbles',
         value: 1
     },
     {
@@ -44,51 +44,51 @@ export const Stats = [
         value: 69.4
     },
     {
-        name: 'longest',
+        name: 'Longest Play',
         value: 54
     },
     {
-        name: 'rec_yards',
+        name: 'Receiving Yards',
         value: 357
     },
     {
-        name: 'receptions',
+        name: 'Receptions',
         value: 46
     },
     {
-        name: 'run_plays',
+        name: 'Run Plays',
         value: 125
     },
     {
-        name: 'total_touches',
+        name: 'Total Touches',
         value: 160
     },
     {
-        name: 'touchdowns',
+        name: 'Touchdowns',
         value: 8
     },
     {
-        name: 'yards_after_contact',
+        name: 'Yards After Contact',
         value: 275
     },
     {
-        name: 'caught_percent',
+        name: 'Caught Percent',
         value: 82.1
     },
     {
-        name: 'contested_receptions',
+        name: 'Contested Receptions',
         value: 3
     },
     {
-        name: 'slot_rate',
+        name: 'Slot Rate',
         value: 3.7
     },
     {
-        name: 'yards_after_catch',
+        name: 'Yards After Catch',
         value: 350
     },
     {
-        name: 'yards_per_reception',
+        name: 'Yards Per Reception',
         value: 7.8
     },
 ]

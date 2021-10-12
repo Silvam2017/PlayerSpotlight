@@ -31,7 +31,7 @@ function App() {
         <div>
           <Jumbotron className='jumbotron'>
             <div id='container'>
-              <h1 className='display-4'>D'Andre Swift - 32</h1>
+              <h1 className='display-4'>D'Andre Swift - #32</h1>
               <hr className="my-2"/>
               <p className='lead'>Running Back</p>
               <p className='lead'>Georgia</p>
