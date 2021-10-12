@@ -1,43 +1,39 @@
 import './App.css';
-import { Jumbotron, Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText } from 'reactstrap';
+import  Navibar  from './Components/Navbar.js';
+import { Jumbotron } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Navbar color="light" light expand='md'>
+        <Navibar color>
           <ul>
             <li>
               <a href='home'>
-                Home
+                Player Spotlight
               </a>
             </li>
             <li>
               <a href='contact'>
-                Contact
+                Spotlight History
+              </a>
+            </li>
+            <li>
+              <a href='vote'>
+                Spotlight Vote
               </a>
             </li>
           </ul>
-        </Navbar>
+        </Navibar>
         <div>
-          <Jumbotron background-image='../assets/img/swift1.jpg'>
-            <h1>
-              D'Andre Swift
-            </h1>
-            <hr className="my-2"/>
-            <p>Running Back</p>
-            <p>Georgia</p>
+          <Jumbotron className='jumbotron' background-image='../assets/img/swift1.jpg'>
+            <div id='container'>
+              <h1 className='display-4'>D'Andre Swift - 32</h1>
+              <hr className="my-2"/>
+              <p className='lead'>Running Back</p>
+              <p className='lead'>Georgia</p>
+              <p className='lead'>Drafted: 2020, Round 2, Pick 3</p>
+            </div>
           </Jumbotron>
         </div>
       </div>
