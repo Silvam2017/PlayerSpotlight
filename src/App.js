@@ -2,6 +2,7 @@ import './App.css';
 import  Navibar  from './Components/Navbar.js';
 import { Jumbotron } from 'reactstrap';
 import Background from './assets/images/swift1.jpg'
+import StatCard from './Components/StatCard'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             </div>
           </Jumbotron>
         </div>
+        <StatCard></StatCard>
       </div>
       <div>
 
