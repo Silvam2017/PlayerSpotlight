@@ -2,7 +2,8 @@ import './App.css';
 import  Navibar  from './Components/Navbar.js';
 import { Jumbotron } from 'reactstrap';
 import Background from './assets/images/swift1.jpg'
-import StatCard from './Components/StatCard'
+import CardList from './Components/CardList'
+import Stats from './Components/Stats';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           </ul>
         </Navibar>
         <div>
-          <Jumbotron className='jumbotron' background-image={Background}>
+          <Jumbotron className='jumbotron'>
             <div id='container'>
               <h1 className='display-4'>D'Andre Swift - 32</h1>
               <hr className="my-2"/>
@@ -38,10 +39,9 @@ function App() {
             </div>
           </Jumbotron>
         </div>
-        <StatCard></StatCard>
+        <CardList Stats={Stats}></CardList>
       </div>
       <div>
-
       </div>
     </div>
   );
