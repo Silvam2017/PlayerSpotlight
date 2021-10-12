@@ -9,6 +9,7 @@ const CardList = ({Stats}) => {
             <CardHeader tag="h3" name={stat.name}>{stat.name}</CardHeader>
             <CardBody>
                 <CardTitle tag='h5' value={stat.value}>{stat.value}</CardTitle>
+                <CardText>{stat.text}</CardText>
             </CardBody>
         </Card>
     ));
