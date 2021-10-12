@@ -40,3 +40,7 @@
 .jumbotron {
   background-image: '../assets/img/swift1.jpg';
 }
+
+.logo {
+  max-height: 100px;
+}

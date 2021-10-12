@@ -1,6 +1,7 @@
 import './App.css';
 import  Navibar  from './Components/Navbar.js';
 import { Jumbotron } from 'reactstrap';
+import Background from './assets/images/swift1.jpg'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           </ul>
         </Navibar>
         <div>
-          <Jumbotron className='jumbotron' background-image='../assets/img/swift1.jpg'>
+          <Jumbotron className='jumbotron' background-image={Background}>
             <div id='container'>
               <h1 className='display-4'>D'Andre Swift - 32</h1>
               <hr className="my-2"/>
