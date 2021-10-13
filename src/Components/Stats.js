@@ -1,3 +1,5 @@
+// Each stat is an object w/ key + value pairs
+// These are exported to the CardList Component
 export const Stats = [
     {
         name: 'Games Played',

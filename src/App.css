@@ -38,9 +38,31 @@
 }
 
 .jumbotron {
-  background-image: '../assets/img/swift1.jpg';
+  position: absolute;
+  top: 170px;
+  left: 125px;
+  color: black;
 }
 
 .logo {
   max-height: 100px;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+.cardStyle {
+  flex-wrap: wrap;
+  width: 200px;
+  border-width: 0;
+  margin-top: 10px;
+  margin-left: 35rem;
+  margin-bottom: 10px;;
+  margin-right: 35rem;
+  border-color: #808080;
+}
+
+.card-header {
+  width: 100%;
 }

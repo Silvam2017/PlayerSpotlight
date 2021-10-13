@@ -15,6 +15,7 @@ const Navibar = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  // onClick handler to open Azure full-stack web app for QB Rankings
   const handleClick = () => {
       window.open("https://prospectusproject.azurewebsites.net/");
   };

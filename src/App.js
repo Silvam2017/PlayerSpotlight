@@ -9,37 +9,24 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Navibar color>
-          <ul>
-            <li>
-              <a href='home'>
-                Player Spotlight
-              </a>
-            </li>
-            <li>
-              <a href='contact'>
-                Spotlight History
-              </a>
-            </li>
-            <li>
-              <a href='vote'>
-                Spotlight Vote
-              </a>
-            </li>
-          </ul>
-        </Navibar>
-        <div>
+        {/* Navbar with Home button and button for QB Rankings page */}
+        <Navibar/>
+          {/* background image with string styling */}
+        <div className='bg-image' style={{backgroundImage: 'url('+Background+')', backgroundSize: "cover", height: "60vh", color:'#f5f5f5'}}>
+          {/* Static biographical info in jumbotron */}
           <Jumbotron className='jumbotron'>
             <div id='container'>
-              <h1 className='display-4'>D'Andre Swift - #32</h1>
+              <h1 className='display-3'>D'Andre Swift - #32</h1>
               <hr className="my-2"/>
-              <p className='lead'>Running Back</p>
-              <p className='lead'>Georgia</p>
-              <p className='lead'>Drafted: 2020, Round 2, Pick 3</p>
+              <p className='display-6'>Position - Running Back</p>
+              <p className='display-6'>College - Georgia</p>
+              <p className='display-6'>Drafted - 2020, Round 2, Pick 3</p>
             </div>
           </Jumbotron>
         </div>
-        <CardList Stats={Stats}></CardList>
+        <h1>2020 Statistics</h1>
+        {/* Dynamic Card List prints each stat */}
+        <CardList Stats={Stats} className='cardContainer'></CardList>
       </div>
       <div>
       </div>
